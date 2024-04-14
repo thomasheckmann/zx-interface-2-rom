@@ -1460,7 +1460,7 @@
 				)
 			)
 		)
-		(symbol "ZXINFO_LIB:W27C512"
+		(symbol "ZXINFO_SYMBOL:W27C512"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2037,7 +2037,7 @@
 				)
 			)
 		)
-		(symbol "ZXINFO_LIB:cartridge_IF2"
+		(symbol "ZXINFO_SYMBOL:cartridge_IF2"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4572,7 +4572,7 @@
 			(uuid "f3af2405-781c-41b2-8c4a-11fa4dae62d2")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "R1")
 					(unit 1)
@@ -4581,7 +4581,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ZXINFO_LIB:cartridge_IF2")
+		(lib_id "ZXINFO_SYMBOL:cartridge_IF2")
 		(at 50.8 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4606,7 +4606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZXINFO_LIB:ZX_I2_ROM_EDGE_CONNECTOR_V2"
+		(property "Footprint" "ZXINFO_FOOTPRINT:CART_IF2_EDGE"
 			(at 80.01 106.68 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 			(uuid "8d1a02e3-e4e3-4ce4-94b6-825cf0209ea2")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "J1")
 					(unit 1)
@@ -4785,7 +4785,7 @@
 			(uuid "b32951a4-2c7e-4543-b8b3-3f1d26eaa320")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR010")
 					(unit 1)
@@ -4855,7 +4855,7 @@
 			(uuid "fe9fe696-6442-47f7-8f78-0b47145c0191")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "C2")
 					(unit 1)
@@ -4925,7 +4925,7 @@
 			(uuid "9109ca4e-8c16-41ac-8865-dbeb1fa4fcca")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "R2")
 					(unit 1)
@@ -5029,7 +5029,7 @@
 			(uuid "7bf0a6af-7933-41eb-9a22-99fb1cbf057f")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "U2")
 					(unit 2)
@@ -5102,7 +5102,7 @@
 			(uuid "94fd2c40-ba27-494b-91c6-236dbea99d6d")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "SW1")
 					(unit 1)
@@ -5208,7 +5208,7 @@
 			(uuid "7bf0a6af-7933-41eb-9a22-99fb1cbf0580")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "U2")
 					(unit 5)
@@ -5274,7 +5274,7 @@
 			(uuid "551b62d9-e07f-438a-aada-31d534559ba9")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR06")
 					(unit 1)
@@ -5341,7 +5341,7 @@
 			(uuid "813e09a8-8d5a-461a-ab1c-39733395986d")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR01")
 					(unit 1)
@@ -5407,7 +5407,7 @@
 			(uuid "8f807c21-8e94-42e5-8a43-d9e7e82edcaa")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR09")
 					(unit 1)
@@ -5473,7 +5473,7 @@
 			(uuid "a5332063-3bfe-43b5-b701-ed3a6203c237")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR07")
 					(unit 1)
@@ -5577,7 +5577,7 @@
 			(uuid "7bf0a6af-7933-41eb-9a22-99fb1cbf0581")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "U2")
 					(unit 4)
@@ -5643,7 +5643,7 @@
 			(uuid "b6b2baaf-db18-4f73-90ac-f2b618fd56d0")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#FLG02")
 					(unit 1)
@@ -5652,7 +5652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ZXINFO_LIB:W27C512")
+		(lib_id "ZXINFO_SYMBOL:W27C512")
 		(at 129.54 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5791,7 +5791,7 @@
 			(uuid "0635ee5d-621d-45cf-9df7-62945d1a8854")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "U1")
 					(unit 1)
@@ -5857,7 +5857,7 @@
 			(uuid "43cc1e95-c69a-445d-8fb0-b51fe8660851")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR04")
 					(unit 1)
@@ -5961,7 +5961,7 @@
 			(uuid "7bf0a6af-7933-41eb-9a22-99fb1cbf0582")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "U2")
 					(unit 3)
@@ -6027,7 +6027,7 @@
 			(uuid "4ad30422-68bd-4008-bcbe-addd025898e7")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR02")
 					(unit 1)
@@ -6131,7 +6131,7 @@
 			(uuid "7bf0a6af-7933-41eb-9a22-99fb1cbf0583")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "U2")
 					(unit 1)
@@ -6197,7 +6197,7 @@
 			(uuid "5c254d82-4263-4fbc-a22c-0b513366f3c4")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#FLG01")
 					(unit 1)
@@ -6267,7 +6267,7 @@
 			(uuid "e6817da7-0d4c-4a2d-8285-74a20bab1715")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "C1")
 					(unit 1)
@@ -6333,7 +6333,7 @@
 			(uuid "e0dd0e03-2086-4b47-b0a8-6e91661ce386")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR03")
 					(unit 1)
@@ -6399,7 +6399,7 @@
 			(uuid "b9b5269a-e631-4800-bee9-31ca8671a2ef")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR05")
 					(unit 1)
@@ -6465,7 +6465,7 @@
 			(uuid "ab6fb697-e354-4e5e-88a9-36bac4cd8983")
 		)
 		(instances
-			(project "ZX-Interface-2-ZXINFO"
+			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "#PWR08")
 					(unit 1)

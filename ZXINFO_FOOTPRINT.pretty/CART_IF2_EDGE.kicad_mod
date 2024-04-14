@@ -317,19 +317,6 @@
 			(justify left bottom mirror)
 		)
 	)
-	(fp_text user "N/C"
-		(at -0.6 -4.7 -90)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "fe40011c-648a-4925-85e8-6d0307f3b83e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(fp_text user "A12"
 		(at -7 -4.7 90)
 		(unlocked yes)
@@ -374,19 +361,6 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4dfc126d-06ad-4b22-81a7-741e5046f7ec")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "N/C"
-		(at 0.6 -4.7 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "64a93be4-668b-4b81-a8d9-b9152ea38d01")
 		(effects
 			(font
 				(size 1 1)
