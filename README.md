@@ -34,3 +34,19 @@ With these changes version 2 of this little PCB ends up like this:
 
 <img width="602" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/3ecfddf8-48ed-49c6-b536-00d8d13c5ec7">
 
+## How to create image for EEPROM
+The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
+
+For Windows
+```
+COPY /B ROM_0+ROM_1+ROM_2+ROM_3 IMAGE.BIN
+```
+Use your favorite (E)EPROM programmer to transfer the IMAGE.BIN to the EEPROM
+
+```
+LEFT|RIGHT
+OFF | OFF - 0: ROM_0
+OFF | ON  - 1: ROM_1
+ON  | OFF - 2: ROM_2
+ON  | ON  - 3: ROM_3
+```
