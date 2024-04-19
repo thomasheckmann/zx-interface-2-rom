@@ -39,7 +39,7 @@ The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, for
 
 For Windows
 ```
-COPY /B ROM_0+ROM_1+ROM_2+ROM_3 IMAGE.BIN
+COPY /B ROM_3+ROM_2+ROM_1+ROM_0 IMAGE.BIN
 ```
 Use your favorite (E)EPROM programmer to transfer the IMAGE.BIN to the EEPROM
 
