@@ -2987,12 +2987,6 @@
 		(uuid "45ee2686-9fd5-46b4-957e-47e3d1f09d4f")
 	)
 	(junction
-		(at 96.52 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67744a9a-7f24-4515-87e6-19ca47a323ac")
-	)
-	(junction
 		(at 96.52 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3005,7 +2999,7 @@
 		(uuid "80b5b963-32b7-4244-b9f6-87a97b99a8ea")
 	)
 	(junction
-		(at 68.58 62.23)
+		(at 67.31 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2474b79-3f06-4c91-bdc8-37b22c7655a8")
@@ -3027,6 +3021,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db70a61c-a874-4a4a-8337-133c2709945e")
+	)
+	(junction
+		(at 96.52 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec0f8175-c15a-47b1-8064-8c89c1793f5b")
 	)
 	(junction
 		(at 36.83 152.4)
@@ -3074,6 +3074,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 62.23) (xy 96.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162b4c6e-22c1-4fcc-940f-1ff525f6a853")
+	)
+	(wire
+		(pts
 			(xy 109.22 59.69) (xy 109.22 81.28)
 		)
 		(stroke
@@ -3104,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 62.23)
+			(xy 67.31 59.69) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 62.23) (xy 68.58 62.23)
+			(xy 59.69 62.23) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3334,16 +3344,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 74.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c0c254-17c7-44b6-aa7e-463237cb6e5a")
-	)
-	(wire
-		(pts
 			(xy 73.66 88.9) (xy 78.74 88.9)
 		)
 		(stroke
@@ -3384,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 68.58 62.23)
+			(xy 67.31 66.04) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3434,16 +3434,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 90.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8367cd0-cbd5-48bf-bd80-78aa23ecebef")
-	)
-	(wire
-		(pts
 			(xy 63.5 106.68) (xy 73.66 106.68)
 		)
 		(stroke
@@ -3484,6 +3474,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 62.23) (xy 74.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbe5e74-5b4f-4c3b-8d6c-c4fbaf39c0af")
+	)
+	(wire
+		(pts
 			(xy 88.9 99.06) (xy 88.9 101.6)
 		)
 		(stroke
@@ -3494,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 68.58 59.69)
+			(xy 74.93 59.69) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4529,7 +4529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "10K"
 			(at 99.06 53.3399 0)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4K7"
+		(property "Value" "10K"
 			(at 106.68 53.3399 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 102.362 52.07 90)
 			(effects
 				(font
@@ -5039,7 +5039,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x02")
-		(at 82.55 62.23 0)
+		(at 82.55 59.69 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5047,15 +5048,15 @@
 		(dnp no)
 		(uuid "27518521-03c0-4702-8852-0392a222be2c")
 		(property "Reference" "SW1"
-			(at 82.55 52.07 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x02"
-			(at 82.55 54.61 0)
+		(property "Value" "ROM select"
+			(at 82.55 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5064,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile"
-			(at 82.55 62.23 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 62.23 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5082,7 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 82.55 62.23 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 66.04 0)
+		(at 67.31 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,7 +5981,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2a726f6-4cb8-4147-94df-8d01d1087c22")
 		(property "Reference" "#PWR02"
-			(at 68.58 72.39 0)
+			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +5990,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 71.12 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,7 +5998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 66.04 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 66.04 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6016,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 66.04 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6142,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 60.96 62.23 0)
+		(at 59.69 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6150,7 +6151,7 @@
 		(fields_autoplaced yes)
 		(uuid "def1cf11-afcb-4404-8571-ec4e05fddb66")
 		(property "Reference" "#FLG01"
-			(at 60.96 60.325 0)
+			(at 59.69 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6160,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 57.15 0)
+			(at 59.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 62.23 0)
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 62.23 0)
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6186,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 60.96 62.23 0)
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
