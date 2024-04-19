@@ -18,7 +18,7 @@ Even that the first version of the PBC works ok, a few errors was made - but aga
 
 - Most important error is that I forgot to check the pads, I simply forgot to check that the pads are added to the solder mask layer! So as can be seen on the image, I had to carefully scrabe the surface - for the pads to be visible.
 
-- The switch are "mirrored" in my oppion, I would expect the left switch to be the most significant bit (MSB) - so another change for next version.
+- The switch are "mirrored" in my oppinion, I would expect the left switch to be the most significant bit (MSB) - so another change for next version.
 
 - Slot in connector turned out to be a bit too narrow, so I had to make it a bit wider.
 
