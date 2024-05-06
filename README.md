@@ -32,7 +32,11 @@ Even that the first version of the PBC works ok, a few errors was made - but aga
 
 With these changes version 2 of this little PCB ends up like this:
 
-<img width="602" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/3ecfddf8-48ed-49c6-b536-00d8d13c5ec7">
+<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/3ecfddf8-48ed-49c6-b536-00d8d13c5ec7" width="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/a1923019-f344-4d02-9720-eff2e236e8e6" width="425"/> 
+
+And here a build version and how it looks like when attached to a ZX Spectrum
+
+<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/94ab6a40-55e5-43df-91f7-bf072351550d" width="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/0b4fb879-edc7-415a-9ce8-14aa38968d2d" width="425"/>
 
 ## How to create image for EEPROM
 The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
