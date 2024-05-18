@@ -2951,12 +2951,6 @@
 		)
 	)
 	(junction
-		(at 73.66 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "042a807b-3f96-4e75-a4ce-2147ad0a87d4")
-	)
-	(junction
 		(at 88.9 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2999,22 +2993,16 @@
 		(uuid "80b5b963-32b7-4244-b9f6-87a97b99a8ea")
 	)
 	(junction
-		(at 67.31 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2474b79-3f06-4c91-bdc8-37b22c7655a8")
-	)
-	(junction
 		(at 129.54 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a74192f9-28df-47b0-b885-719d43da401c")
 	)
 	(junction
-		(at 73.66 88.9)
+		(at 69.85 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abf8027f-2fbb-4cd3-b506-9a4d090b6627")
+		(uuid "c048182c-ee58-4ff9-8359-46108c61f37c")
 	)
 	(junction
 		(at 36.83 139.7)
@@ -3051,26 +3039,6 @@
 			(type default)
 		)
 		(uuid "0120a8fe-0994-414e-b7c4-c71529c107b9")
-	)
-	(wire
-		(pts
-			(xy 73.66 106.68) (xy 73.66 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbfa7c9-7c77-480d-8e44-be7c6c379c59")
-	)
-	(wire
-		(pts
-			(xy 63.5 88.9) (xy 73.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104a4cb6-de13-44ee-8457-ceccfd0e5da7")
 	)
 	(wire
 		(pts
@@ -3111,16 +3079,6 @@
 			(type default)
 		)
 		(uuid "24d860cf-87b3-40ac-8e16-2c61e2ee7ebc")
-	)
-	(wire
-		(pts
-			(xy 67.31 59.69) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2594cb81-ec3e-428a-a4d8-f656784e2072")
 	)
 	(wire
 		(pts
@@ -3191,16 +3149,6 @@
 			(type default)
 		)
 		(uuid "4406114a-ac5d-4fc6-b168-8b47291e8f54")
-	)
-	(wire
-		(pts
-			(xy 59.69 62.23) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45649b43-daf8-4736-82d8-9f155a866ea8")
 	)
 	(wire
 		(pts
@@ -3344,13 +3292,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 78.74 88.9)
+			(xy 69.85 59.69) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b48a9dcb-3a1a-4cd7-8e7b-9d81ef21b79a")
+		(uuid "b09f9f4f-3756-4dd3-943b-1ac2bf5361db")
 	)
 	(wire
 		(pts
@@ -3384,16 +3332,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 66.04) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c047a7d7-cb54-4738-bacd-faa32f1f1a92")
-	)
-	(wire
-		(pts
 			(xy 101.6 62.23) (xy 96.52 62.23)
 		)
 		(stroke
@@ -3424,6 +3362,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 59.69) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd74386-7afe-45bb-b59a-160fb2c57228")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 69.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26b8ea5-a78a-46f4-b393-e07d346e8adf")
+	)
+	(wire
+		(pts
 			(xy 148.59 45.72) (xy 148.59 113.03)
 		)
 		(stroke
@@ -3431,6 +3389,16 @@
 			(type default)
 		)
 		(uuid "d2a68af7-fe55-43cb-880f-2bd06e731e53")
+	)
+	(wire
+		(pts
+			(xy 60.96 59.69) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fbcc9c-66bb-43b5-892f-4eee9f6300d6")
 	)
 	(wire
 		(pts
@@ -3454,13 +3422,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 93.98) (xy 78.74 93.98)
+			(xy 63.5 88.9) (xy 73.66 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da783ff4-2fe8-43c0-bc93-9b7edc1b583b")
+		(uuid "da7505fc-e265-457f-a92f-fa66db6b8b9a")
 	)
 	(wire
 		(pts
@@ -3474,13 +3442,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 74.93 62.23)
+			(xy 73.66 93.98) (xy 73.66 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcbe5e74-5b4f-4c3b-8d6c-c4fbaf39c0af")
+		(uuid "dcd8b949-9049-4100-a001-1399c0bd8a28")
 	)
 	(wire
 		(pts
@@ -3491,16 +3459,6 @@
 			(type default)
 		)
 		(uuid "df081aaa-d49d-47c4-aa5f-030c3ab399d6")
-	)
-	(wire
-		(pts
-			(xy 74.93 59.69) (xy 67.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f9d870-030a-44f1-a576-e19fbce1d661")
 	)
 	(wire
 		(pts
@@ -3541,6 +3499,25 @@
 			(type default)
 		)
 		(uuid "f0570352-c375-4b25-83b7-4c6ab2aa5a36")
+	)
+	(text_box "CHANGELOG:\n\nv1.2:\n- PADS made 2mm longer, to prevent potential issues with some connectors\n- Pull ups chaned to pull down to match DIP-SWITCH text\n\nv1.1:\n- Add PADS to solder mask\n- Re-arranged switch connection, to change order (left-right) A15, A14, A13\n- Made slot a bit wider\n- Rotated IC to have same orientation"
+		(exclude_from_sim no)
+		(at 215.9 15.24 0)
+		(size 66.04 31.75)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "0856ee54-1df8-46a0-b35e-5daa6cc6c8ae")
 	)
 	(global_label "A10"
 		(shape input)
@@ -4518,10 +4495,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01e14c37-5cf0-4ee9-b098-5fc91e537a56")
 		(property "Reference" "R1"
-			(at 99.06 50.7999 0)
+			(at 97.79 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4506,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 53.3399 0)
+			(at 97.79 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,6 +4840,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e55ec7f-efd5-4eb7-ba70-8066a2942197")
+		(property "Reference" "#PWR011"
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d94d84e6-2fd3-4b08-9f5c-8c58c7fc7533")
+		)
+		(instances
+			(project "zx-interface-2-rom"
+				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 104.14 52.07 0)
 		(unit 1)
@@ -4871,10 +4913,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f29cd60-030f-4df4-b644-dd5b5ca026cb")
 		(property "Reference" "R2"
-			(at 106.68 50.7999 0)
+			(at 105.41 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4924,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 106.68 53.3399 0)
+			(at 105.41 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,8 +5080,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x02")
-		(at 82.55 59.69 0)
-		(mirror x)
+		(at 82.55 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5587,6 +5627,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 96.52 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "790e8759-9cd4-48b8-9676-0e7ed9719e91")
+		(property "Reference" "#PWR02"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f93c5c5-2f91-44d7-938a-c2affb46df66")
+		)
+		(instances
+			(project "zx-interface-2-rom"
+				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 87.63 40.64 0)
 		(unit 1)
@@ -5971,72 +6077,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 67.31 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2a726f6-4cb8-4147-94df-8d01d1087c22")
-		(property "Reference" "#PWR02"
-			(at 67.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ad30422-68bd-4008-bcbe-addd025898e7")
-		)
-		(instances
-			(project "zx-interface-2-rom"
-				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS32")
 		(at 81.28 91.44 0)
 		(unit 1)
@@ -6142,7 +6182,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 62.23 0)
+		(at 60.96 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6151,7 +6191,7 @@
 		(fields_autoplaced yes)
 		(uuid "def1cf11-afcb-4404-8571-ec4e05fddb66")
 		(property "Reference" "#FLG01"
-			(at 59.69 60.325 0)
+			(at 60.96 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6200,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 59.69 57.15 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 62.23 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 62.23 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +6226,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 62.23 0)
+			(at 60.96 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,72 +6311,6 @@
 			(project "zx-interface-2-rom"
 				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 96.52 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee061171-8b93-4cd7-91c1-35a516e39cef")
-		(property "Reference" "#PWR03"
-			(at 96.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0dd0e03-2086-4b47-b0a8-6e91661ce386")
-		)
-		(instances
-			(project "zx-interface-2-rom"
-				(path "/f29e48fc-2e79-4af0-a809-41de68718d80"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
