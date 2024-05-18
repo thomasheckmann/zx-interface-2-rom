@@ -13,7 +13,7 @@ Assembled the cartridge looks like this
 
 <img width="602" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/98390b0a-0d1a-49b4-8ea4-dc8fd6eeafcf">
 
-## PCB version 2
+## PCB version 1.1
 Even that the first version of the PBC works ok, a few errors was made - but again I'm new to KiCad, so I'm slowly learning :-)
 
 - Most important error is that I forgot to check the pads, I simply forgot to check that the pads are added to the solder mask layer! So as can be seen on the image, I had to carefully scrabe the surface - for the pads to be visible.
@@ -54,3 +54,20 @@ OFF | ON  - 1: ROM_1
 ON  | OFF - 2: ROM_2
 ON  | ON  - 3: ROM_3
 ```
+## PCB version 1.2
+Only small changes to v1.2 of the board, which I think now can be considered final.
+
+- Changed from pull-ups to pull-down, to match actual behaviour of DIP-SWITCH (up = 1/ON/HIGH, down = 0/OFF/LOW)
+- Made PADS 2mm longer, as some connectors might have issues with the smaller size
+
+## How to create image for EEPROM
+The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
+
+For Windows
+```
+COPY /B ROM_0+ROM_1+ROM_2+ROM_3 IMAGE.BIN
+```
+OFF | OFF - 0: ROM_0
+OFF | ON  - 1: ROM_1
+ON  | OFF - 2: ROM_2
+ON  | ON  - 3: ROM_3
