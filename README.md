@@ -67,7 +67,11 @@ For Windows
 ```
 COPY /B ROM_0+ROM_1+ROM_2+ROM_3 IMAGE.BIN
 ```
+Use your favorite (E)EPROM programmer to transfer the IMAGE.BIN to the EEPROM
+```
+LEFT|RIGHT
 OFF | OFF - 0: ROM_0
 OFF | ON  - 1: ROM_1
 ON  | OFF - 2: ROM_2
 ON  | ON  - 3: ROM_3
+```
