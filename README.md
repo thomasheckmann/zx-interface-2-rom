@@ -57,7 +57,7 @@ ON  | ON  - 3: ROM_3
 ## PCB version 1.2
 Only small changes to v1.2 of the board, which I think now can be considered final.
 
-- Changed from pull-ups to pull-down, to match actual behaviour of DIP-SWITCH (up = 1/ON/HIGH, down = 0/OFF/LOW)
+- Changed from pull-ups to pull-downs, to match actual behaviour of DIP-SWITCH (up = 1/ON/HIGH, down = 0/OFF/LOW)
 - Made PADS 2mm longer, as some connectors might have issues with the smaller size
 
 ## How to create image for EEPROM
