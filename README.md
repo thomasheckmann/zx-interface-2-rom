@@ -7,11 +7,11 @@ Just a simple schema created with KiCad from description of original Interface 2
 
 | SCHEMA | PCB |
 | ------ | --- |
-|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/24d9d5d2-00fc-4982-a62f-d98555bc82f8">|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/fd5c1722-be26-4a0e-b76c-133080a56d07">|
+|<img height="425" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/24d9d5d2-00fc-4982-a62f-d98555bc82f8">|<img height="425" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/fd5c1722-be26-4a0e-b76c-133080a56d07">|
 
 Assembled the cartridge looks like this
 
-<img width="602" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/98390b0a-0d1a-49b4-8ea4-dc8fd6eeafcf">
+<img width="425" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/98390b0a-0d1a-49b4-8ea4-dc8fd6eeafcf">
 
 ## PCB version 1.1
 Even that the first version of the PBC works ok, a few errors was made - but again I'm new to KiCad, so I'm slowly learning :-)
@@ -32,11 +32,11 @@ Even that the first version of the PBC works ok, a few errors was made - but aga
 
 With these changes version 1.1 of this little PCB ends up like this:
 
-<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/3ecfddf8-48ed-49c6-b536-00d8d13c5ec7" width="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/a1923019-f344-4d02-9720-eff2e236e8e6" width="425"/> 
+<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/3ecfddf8-48ed-49c6-b536-00d8d13c5ec7" height="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/a1923019-f344-4d02-9720-eff2e236e8e6" width="425" height="425"/> 
 
 And here how it looks like when build and attached to a ZX Spectrum
 
-<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/94ab6a40-55e5-43df-91f7-bf072351550d" width="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/0b4fb879-edc7-415a-9ce8-14aa38968d2d" width="425"/>
+<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/94ab6a40-55e5-43df-91f7-bf072351550d" width="425" height="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/0b4fb879-edc7-415a-9ce8-14aa38968d2d" width="425" height="425"/>
 
 ## How to create image for EEPROM
 The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
@@ -62,7 +62,7 @@ Only small changes to v1.2 of the board, which I think now can be considered fin
 
 | SCHEMA | PCB |
 | ------ | --- |
-|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/6fc38f5d-754c-4e6b-84c2-64827928ea93">|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/57d7350c-4b89-4942-81d7-d956b0ae1a11">|
+|<img height="425" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/6fc38f5d-754c-4e6b-84c2-64827928ea93">|<img height="425" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/57d7350c-4b89-4942-81d7-d956b0ae1a11">|
 
 ## How to create image for EEPROM
 The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
