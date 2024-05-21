@@ -36,7 +36,7 @@ With these changes version 1.1 of this little PCB ends up like this:
 
 And here how it looks like when build and attached to a ZX Spectrum
 
-<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/94ab6a40-55e5-43df-91f7-bf072351550d" width="425" height="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/0b4fb879-edc7-415a-9ce8-14aa38968d2d" width="425" height="425"/>
+<img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/94ab6a40-55e5-43df-91f7-bf072351550d" width="420" height="420"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/0b4fb879-edc7-415a-9ce8-14aa38968d2d" width="420" height="420"/>
 
 ## How to create image for EEPROM
 The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
