@@ -3500,7 +3500,7 @@
 		)
 		(uuid "f0570352-c375-4b25-83b7-4c6ab2aa5a36")
 	)
-	(text_box "CHANGELOG:\n\nv1.2:\n- PADS made 2mm longer, to prevent potential issues with some connectors\n- Pull ups chaned to pull down to match DIP-SWITCH text\n\nv1.1:\n- Add PADS to solder mask\n- Re-arranged switch connection, to change order (left-right) A15, A14, A13\n- Made slot a bit wider\n- Rotated IC to have same orientation"
+	(text_box "CHANGELOG:\n\nv1.2:\n- PADS made 2mm longer, to prevent potential issues with some connectors\n- Pull ups changed to pull down to match DIP-SWITCH text\n\nv1.1:\n- Add PADS to solder mask\n- Re-arranged switch connection, to change order (left-right) A15, A14, A13\n- Made slot a bit wider\n- Rotated IC to have same orientation"
 		(exclude_from_sim no)
 		(at 215.9 15.24 0)
 		(size 66.04 31.75)
