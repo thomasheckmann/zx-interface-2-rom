@@ -7,7 +7,7 @@ Just a simple schema created with KiCad from description of original Interface 2
 
 | SCHEMA | PCB |
 | ------ | --- |
-|<img width="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/24d9d5d2-00fc-4982-a62f-d98555bc82f8">|<img width="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/fd5c1722-be26-4a0e-b76c-133080a56d07">|
+|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/24d9d5d2-00fc-4982-a62f-d98555bc82f8">|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/fd5c1722-be26-4a0e-b76c-133080a56d07">|
 
 Assembled the cartridge looks like this
 
