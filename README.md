@@ -30,7 +30,7 @@ Even that the first version of the PBC works ok, a few errors was made - but aga
 
 - Changed PCB from 4 to 2 layers (Only used 4 to reduces the number of vias created between pads)
 
-With these changes version 2 of this little PCB ends up like this:
+With these changes version 1.1 of this little PCB ends up like this:
 
 <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/3ecfddf8-48ed-49c6-b536-00d8d13c5ec7" width="425"/> <img src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/a1923019-f344-4d02-9720-eff2e236e8e6" width="425"/> 
 
@@ -59,6 +59,10 @@ Only small changes to v1.2 of the board, which I think now can be considered fin
 
 - Changed from pull-ups to pull-downs, to match actual behaviour of DIP-SWITCH (up = 1/ON/HIGH, down = 0/OFF/LOW)
 - Made PADS 2mm longer, as some connectors might have issues with the smaller size
+
+| SCHEMA | PCB |
+| ------ | --- |
+|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/6fc38f5d-754c-4e6b-84c2-64827928ea93">|<img height="480" alt="image" src="https://github.com/thomasheckmann/zx-interface-2-rom/assets/14136378/57d7350c-4b89-4942-81d7-d956b0ae1a11">|
 
 ## How to create image for EEPROM
 The W27C512 EEPROM can contain 4 x 16Kb images - selectable with the switch, forming the binary number 0-3 of the bank active.
